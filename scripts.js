@@ -253,6 +253,7 @@ $('.progress-bar-fill').attr('style',  'width:'+recProgress+'%');
     sdata.msg=recProgress; 
     sdata.speed=speed;
     console.log("trying to send",sdata)
+    console.log("b")
   
     sendMsg(sdata)
     }
